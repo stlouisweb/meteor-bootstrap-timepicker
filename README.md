@@ -19,3 +19,4 @@ and in your template file:
 
 #### To-Do
 AutoForm integration
+Please feel free to submit a pull-request if you have any ideas for improvements.
