@@ -1,7 +1,7 @@
 Package.describe({
   name: 'jplack:bootstrap-timepicker',
   summary: 'Bootstrap 3 timepicker for Meteor.',
-  version: '0.2.0',
+  version: '0.2.1',
   git: 'https://github.com/stlouisweb/meteor-bootstrap-timepicker.git'
 });
 
