@@ -4,16 +4,11 @@
 Packages [acpmasquerade/bootstrap3-timepicker2](https://github.com/acpmasquerade/bootstrap3-timepicker2) for use in Meteor projects.
 
 ### Usage
-call the timepicker script from the meteor templates rendered callback with the id of your time input:
-```javascript
-Template.templatename.rendered = function() {
-  $("#timepicker-default").timepicker();
-};
-```
-and in your template file:
+
+In your Templates create a text input with the timepicker class
 ```handlebars
 <template name="templatename">
-    <input id="timepicker-default" type="text">
+    <input id="whatever" class="timepicker" type="text">
 </template>
 ```
 
