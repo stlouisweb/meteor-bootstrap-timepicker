@@ -10,7 +10,7 @@ Package.onUse(function(api) {
     'bootstrap-timepicker/css/bootstrap-timepicker.css',
     'bootstrap-timepicker/js/bootstrap-timepicker.js'
   ], ['client']);
-  api.use(['templating'],'client');
+  api.use(['templating@1.1.1'],'client');
   api.addFiles(['timepicker.js'],'client');
   api.use('aldeed:template-extension@3.4.3', 'client');
   api.use('twbs:bootstrap@3.3.1', 'client', {weak: true});
