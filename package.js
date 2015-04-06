@@ -10,6 +10,6 @@ Package.onUse(function(api) {
     'bootstrap-timepicker/css/bootstrap-timepicker.css',
     'bootstrap-timepicker/js/bootstrap-timepicker.js'
   ], ['client']);
-  api.use('twbs:bootstrap', 'client', {weak: true});
-  api.use('nemo64:bootstrap', 'client', {weak: true});
+  api.use('twbs:bootstrap@3.3.1', 'client', {weak: true});
+  api.use('nemo64:bootstrap@3.3.1', 'client', {weak: true});
 });
