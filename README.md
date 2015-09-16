@@ -12,10 +12,14 @@ In your Templates create a text input with the timepicker class
 </template>
 ```
 
+AutoForm:
+```handlebars
+{{> afQuickField name="startTime" type="bootstrap-timepicker" class="timepicker"}}
+```
+
 For one minute increaments use class timepicker-precise
 
 For seconds use class timepicker-seconds
 
 #### To-Do
-AutoForm integration
 Please feel free to submit a pull-request if you have any ideas for improvements.
