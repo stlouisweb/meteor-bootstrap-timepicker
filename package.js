@@ -1,7 +1,7 @@
 Package.describe({
   name: 'jplack:bootstrap-timepicker',
   summary: 'Bootstrap 3 timepicker for Meteor.',
-  version: '0.2.1',
+  version: '0.2.2',
   git: 'https://github.com/stlouisweb/meteor-bootstrap-timepicker.git'
 });
 
@@ -15,4 +15,10 @@ Package.onUse(function(api) {
   api.use('aldeed:template-extension@3.4.3', 'client');
   api.use('twbs:bootstrap@3.3.1', 'client', {weak: true});
   api.use('nemo64:bootstrap@3.3.1', 'client', {weak: true});
+
+  api.use('aldeed:autoform@4.0.0 || 5.0.0');
+  api.addFiles([
+    'autoform-bs-timepicker.html',
+    'autoform-bs-timepicker.js'
+  ], 'client');
 });
